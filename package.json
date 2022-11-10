@@ -1,0 +1,29 @@
+{
+    "name": "project-may",
+    "version": "1.0.0",
+    "description": "Codebase for project-may.",
+    "main": "main.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Note: no tests specified\"",
+        "lint": "eslint . & prettier --check ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/project-may/project-may.git"
+    },
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/project-may/project-may/issues"
+    },
+    "homepage": "https://github.com/project-may/project-may#readme",
+    "devDependencies": {
+        "eslint": "^8.27.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.31.10",
+        "prettier": "^2.7.1"
+    }
+}
