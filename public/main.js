@@ -19,7 +19,7 @@ function createWindow() {
     // win.webContents.openDevTools();
 }
 
-const test = '';
+const test = "";
 hhhh;
 const lastChange = "hello";
 
