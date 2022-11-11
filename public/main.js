@@ -22,6 +22,7 @@ function createWindow() {
 const test = "";
 hhhh;
 const lastChange = "hello";
+onwebkitanimationiteration;
 
 app.whenReady().then(createWindow);
 
