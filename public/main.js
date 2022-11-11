@@ -18,6 +18,8 @@ function createWindow() {
     // win.webContents.openDevTools();
 }
 
+const test = '';
+
 app.whenReady().then(createWindow);
 
 // Quit when all windows are closed, except on macOS. There, it's common
