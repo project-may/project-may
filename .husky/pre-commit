@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx prettier --write .
+npm run format
 npm run lint
 npm run test:watch
 
