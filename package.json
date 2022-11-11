@@ -25,7 +25,8 @@
         "eject": "react-scripts eject",
         "electron": "electron .",
         "format": "prettier --write .",
-        "lint": "eslint . & prettier --check .",
+        "format:check": "prettier --check .",
+        "lint:check": "eslint .",
         "prepare": "husky install"
     },
     "eslintConfig": {

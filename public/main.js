@@ -1,4 +1,3 @@
-const { queryHelpers } = require("@testing-library/react");
 const { app, BrowserWindow } = require("electron");
 
 function createWindow() {
@@ -18,11 +17,6 @@ function createWindow() {
 
     // win.webContents.openDevTools();
 }
-
-const test = "";
-hhhh;
-const lastChange = "hello";
-onwebkitanimationiteration;
 
 app.whenReady().then(createWindow);
 
