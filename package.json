@@ -21,9 +21,14 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
+        "test:watch": "react-scripts test --watchAll=false",
         "eject": "react-scripts eject",
         "electron": "electron .",
-        "lint": "eslint . & prettier --check ."
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "lint": "eslint --fix .",
+        "lint:check": "eslint .",
+        "prepare": "husky install"
     },
     "eslintConfig": {
         "extends": [
@@ -43,5 +48,8 @@
             "last 1 safari version"
         ]
     },
-    "main": "public/main.js"
+    "main": "public/main.js",
+    "devDependencies": {
+        "husky": "^8.0.0"
+    }
 }
