@@ -25,9 +25,13 @@ jobs:
               run: |
                   npm i --include=dev
 
-            - name: Run linting
+            - name: Run linting check
               run: |
-                  npm run lint
+                  npm run lint:check
+
+            - name: Run formatting check
+              run: |
+                  npm run format:check
 
     test:
         runs-on: ubuntu-latest
