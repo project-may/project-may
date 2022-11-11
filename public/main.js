@@ -1,3 +1,4 @@
+const { queryHelpers } = require("@testing-library/react");
 const { app, BrowserWindow } = require("electron");
 
 function createWindow() {
@@ -19,6 +20,7 @@ function createWindow() {
 }
 
 const test = '';
+hhhh;
 
 app.whenReady().then(createWindow);
 
