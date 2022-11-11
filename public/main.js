@@ -21,6 +21,7 @@ function createWindow() {
 
 const test = '';
 hhhh;
+const lastChange = "hello";
 
 app.whenReady().then(createWindow);
 
